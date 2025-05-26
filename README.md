@@ -1,42 +1,35 @@
 📡 Computer Networks Project – TCP Feedback System
-📖 Overview
-
-This project is a simple TCP-based client-server application integrated with a modern Flask web interface. It simulates a feedback system where:
+Overview:
+This project is a simple TCP-based client-server application integrated with a Flask web interface. It simulates a basic feedback system where:
 
 A TCP client sends a request to a TCP server.
 
 The server replies with an HTTP-like response.
 
-Users submit feedback via a responsive web form.
+Feedback from users is collected through a modern web interface.
 
-All feedback is stored in a JSON file and can be viewed, edited, or deleted dynamically through the UI.
+Feedback is stored in a JSON file and can be viewed, updated, or deleted through the interface.
 
-This project was built as part of a Computer Networks course to demonstrate the integration of socket programming with web technologies.
+🔧 Features:
+🌐 TCP Server that handles client requests
 
-🔧 Features
+💬 Client that connects and sends messages to the server
 
-🌐 TCP Server that handles incoming client requests
+📝 Web-based feedback form using Flask + HTML/CSS/JS
 
-💬 TCP Client that connects and communicates with the server
+🌙 Dark mode toggle
 
-📝 Flask-based Web Interface for submitting and viewing feedback
+🔁 Edit and delete feedbacks dynamically
 
-🌙 Dark Mode Toggle for better user experience
-
-🔁 Edit and Delete feedback entries dynamically
-
-⭐ Average Rating displayed using star icons
-
-📂 Feedback data stored in a local JSON file
+⭐ Displays average rating with star visuals
 
 💻 Technologies Used
+Python (Socket, Flask)
 
-🐍 Python (Socket Programming, Flask)
+HTML5 / CSS3 / Bootstrap 5
 
-🌐 HTML5 / CSS3 / Bootstrap 5
+JavaScript
 
-🧠 JavaScript (for interactivity)
+Jinja2 (Flask templates)
 
-🧩 Jinja2 Templating Engine (Flask)
-
-🗃️ JSON (for feedback storage)
+JSON for local feedback storage
