@@ -1,5 +1,5 @@
-📡 Computer Networks Project – TCP Feedback System
 
+<<<<<<< HEAD
 📖 Overview:
 
 This project is a simple TCP-based client-server application integrated with a modern Flask web interface. It simulates a feedback system where:
@@ -41,3 +41,5 @@ This project was built as part of a Computer Networks course to demonstrate the 
 
 🗃️ JSON (for feedback storage)
 
+=======
+>>>>>>> fa2cd8b3089ef7a513211b6f5be9a6da4225b2fa
