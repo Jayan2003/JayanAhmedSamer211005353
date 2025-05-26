@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f3f4f6 0%, #e7edf4 100%);
+    min-height: 100vh;
+    padding-top: 80px;          
+}
+
+/* Header */
+.site-header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #0d6efd;
+    color: #fff;
+    padding: 14px 30px;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+}
+.site-header h1 { font-size: 1.3rem; margin: 0; }
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Form */
+.feedback-form label    { font-weight: 600; }
+.feedback-form .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 4px rgba(13,110,253,.45);
+}
+.feedback-form button {
+    font-weight: 600;
+}
+
+/* Feedback cards */
+.feedback-item {
+    background: #fff;
+    border-left: 6px solid #0d6efd;
+    border-radius: 12px;
+    padding: 14px 18px 10px;
+    margin-bottom: 18px;
+    position: relative;
+    box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+.feedback-item small { display: block; }
+
+.feedback-item .btn {
+    position: absolute; top: 8px;
+}
+.feedback-item .btn-warning { right: 46px; }
+.feedback-item .btn-danger  { right: 8px; }
+
+/* Dark-mode */
+body.bg-dark {
+    background: #121212 !important;
+}
+body.bg-dark header.site-header { background: #1e1e1e; }
+body.bg-dark .feedback-item     { background: #1e1e1e; border-left-color:#0d6efd; }
+body.bg-dark .text-primary      { color:#66b3ff !important; }
+body.bg-dark .text-success      { color:#67d49b !important; }
